@@ -1,46 +1,43 @@
-#+author: conao3
-#+date: <2020-03-20 Fri>
+#+title: salm.lisp
+#+author: Naoya Yamashita
 
-[[https://github.com/conao3/salm.lisp][https://raw.githubusercontent.com/conao3/files/master/blob/headers/png/salm.lisp.png]]
 [[https://github.com/conao3/salm.lisp/blob/master/LICENSE][https://img.shields.io/github/license/conao3/salm.lisp.svg?style=flat-square]]
 [[https://github.com/conao3/salm.lisp/releases][https://img.shields.io/github/tag/conao3/salm.lisp.svg?style=flat-square]]
-[[https://github.com/conao3/salm.lisp/actions][https://img.shields.io/badge/patreon-become%20a%20patron-orange.svg?logo=patreon&style=flat-square]]
-[[https://twitter.com/conao_3][https://img.shields.io/badge/twitter-@conao__3-blue.svg?logo=twitter&style=flat-square]]
-[[https://conao3-support.slack.com/join/shared_invite/enQtNjUzMDMxODcyMjE1LWUwMjhiNTU3Yjk3ODIwNzAxMTgwOTkxNmJiN2M4OTZkMWY0NjI4ZTg4MTVlNzcwNDY2ZjVjYmRiZmJjZDU4MDE][https://img.shields.io/badge/chat-on_slack-blue.svg?logo=slack&style=flat-square]]
 
-* Table of Contents
-- [[#description][Description]]
-- [[#install][Install]]
-- [[#usage][Usage]]
-- [[#information][Information]]
-  - [[#community][Community]]
-  - [[#contribution][Contribution]]
-  - [[#license][License]]
-  - [[#author][Author]]
+* Overview
 
-* Description
-Serverless Application Lisp Model.
+salm.lisp is a Serverless Application Lisp Model - a framework for building serverless applications using Lisp.
 
-* Install
+* Installation
+
+#+begin_src shell
+# Clone the repository
+git clone https://github.com/conao3/salm.lisp.git
+cd salm.lisp
+#+end_src
 
 * Usage
 
-* Information
-** Community
-All feedback and suggestions are welcome!
+#+begin_src shell
+make build
+#+end_src
 
-You can use github issues, but you can also use [[https://conao3-support.slack.com/join/shared_invite/enQtNjUzMDMxODcyMjE1LWUwMjhiNTU3Yjk3ODIwNzAxMTgwOTkxNmJiN2M4OTZkMWY0NjI4ZTg4MTVlNzcwNDY2ZjVjYmRiZmJjZDU4MDE][Slack]]
-if you want a more casual conversation.
+* Contributing
 
-** Contribution
-We welcome PR!
+Contributions are welcome. Feel free to open an issue or submit a pull request.
 
-** License
-#+begin_example
-  MIT License
-  Copyright (c) Naoya Yamashita - https://conao3.com
-  https://github.com/conao3/salm.lisp/blob/master/LICENSE
-#+end_example
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a pull request
 
-** Author
-- Naoya Yamashita ([[https://github.com/conao3][conao3]])
+* License
+
+This project is licensed under the MIT License. See the [[https://github.com/conao3/salm.lisp/blob/master/LICENSE][LICENSE]] file for details.
+
+Copyright (c) Naoya Yamashita
+
+* Author
+
+Naoya Yamashita ([[https://github.com/conao3][@conao3]])
